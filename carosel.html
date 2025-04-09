@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3 Cards Per Slide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container py-5">
+  <div id="multiCardCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/00/dd/00/domino-s-pizza.jpg?w=600&h=-1&s=1" class="card-img-top" alt="Card 1">
+              <div class="card-body">
+                <h5 class="card-title">Card 1</h5>
+                <p class="card-text">Some quick example text.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBrutqPKktN2YVPiLMrxeoaT0pSgeK36YrYA&s" class="card-img-top" alt="Card 2">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">More content here.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-199" style="width: 24rem;">
+              <img src="https://images.ctfassets.net/wtodlh47qxpt/2MisPscDV1k33qLnGwQ2il/14bdab6e4b9e25e1b91a8578df5097f2/CAT86" class="card-img-top" alt="Card 3">
+              <div class="card-body">
+                <h5 class="card-title">Card 3</h5>
+                <p class="card-text">Another card description.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://media.istockphoto.com/id/184354422/photo/club-sandwich.jpg?s=612x612&w=0&k=20&c=oekKP1LciqidyIPbTMe6CJp4M8iaasktEjqx2OcxpAU=" class="card-img-top" alt="Card 4">
+              <div class="card-body">
+                <h5 class="card-title">Card 4</h5>
+                <p class="card-text">Text for card 4.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-199" style="width: 24rem;">
+              <img src="https://c4.wallpaperflare.com/wallpaper/667/1010/485/food-sausage-sandwiches-wallpaper-preview.jpg" class="card-img-top" alt="Card 5">
+              <div class="card-body">
+                <h5 class="card-title">Card 5</h5>
+                <p class="card-text">Text for card 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-204" style="width: 25rem;">
+              <img src="https://thumbs.dreamstime.com/b/classic-blt-croissant-sandwiches-dark-background-classic-blt-croissant-sandwiches-129585569.jpg" class="card-img-top" alt="Card 6">
+              <div class="card-body">
+                <h5 class="card-title">Card 6</h5>
+                <p class="card-text">Text for card 6.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://thumbs.dreamstime.com/b/delicious-burger-fries-combo-delicious-burger-fries-combo-290780676.jpg" class="card-img-top" alt="Card 4">
+              <div class="card-body">
+                <h5 class="card-title">Card 7</h5>
+                <p class="card-text">Text for card 7.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://img.freepik.com/free-photo/delicious-tacos-arrangement_23-2151047929.jpg?semt=ais_hybrid&w=740" class="card-img-top" alt="Card 5">
+              <div class="card-body">
+                <h5 class="card-title">Card 8</h5>
+                <p class="card-text">Text for card 9.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-200" style="width: 25rem;">
+              <img src="https://www.shutterstock.com/image-photo/donuts-different-types-topping-600nw-2488233537.jpg" class="card-img-top" alt="Card 6">
+              <div class="card-body">
+                <h5 class="card-title">Card 9</h5>
+                <p class="card-text">Text for card 9.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more slides here if needed -->
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
